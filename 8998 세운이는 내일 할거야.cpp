@@ -37,7 +37,7 @@ int main(int argc, char** argv)
         }
         sort(HW.begin(), HW.end()); //마감시간 오름차순 정렬
 
-        //이진 탐색으로 만족하는 X를 찾고 X+1이 불가능하다면 최대 X.
+        //이진 탐색으로 만족하는 X를 찾음.
         int start = 0;
         int end = HW[N-1].first - HW[N-1].second;
         int mid = (start + end)/2;
